@@ -1,0 +1,99 @@
+body {
+    font-family: 'GoogleSans', sans-serif;
+    margin: 0px;
+}
+
+#loginBody {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+#text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.welcome {
+    font-size: xx-large;
+    font-weight: bold;
+    color: #003d5b
+}
+
+.mess {
+    font-size: large;
+}
+
+#loginPanel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid #003d5b;
+    box-shadow: 0 2px 10px gray;
+    background-color: white;
+}
+
+#loginForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.loginInput {
+    height: 3em;
+    font-size: large;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    box-shadow: inset 0 1px 2px lightgray;
+}
+
+.loginInput:focus {
+    outline: 2px solid #003d5b;
+}
+
+#login {
+    height: 2.5em;
+    font-size: large;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: none;
+    background-color: #003d5b;
+    color: white;
+    cursor: pointer;
+}
+
+#login:hover {
+    box-shadow: 0 2px 10px gray;
+}
+
+.regButton {
+    background-color: #b6c6cf;
+    text-align: center;
+    width: 70%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.regButton:hover {
+    box-shadow: 0 2px 10px gray;
+}
+
+.errorMess {
+    text-align: center;
+    color: crimson;
+}
+
+hr {
+    width: 100%;
+    color: lightgray;
+}

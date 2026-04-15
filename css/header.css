@@ -1,0 +1,114 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #003d5b;
+    border-bottom: 1px solid lightgray;
+}
+
+.login {
+    padding: 10px;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    background-color: #d1495b;
+    margin-right: 10px;
+}
+
+.login:hover {
+    background-color: #d76c7a;
+}
+
+.register {
+    padding: 10px;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    background-color: #F5B942;
+}
+
+.register:hover {
+    background-color: #f6ca73;
+}
+
+.logout {
+    padding: 8px 15px;
+    font-size: large;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    background-color: #d1495b;
+    margin-left: 10px;
+}
+
+.logout:hover {
+    background-color: #d76c7a;
+}
+
+.logo {
+    width: 27%;
+}
+
+.logBar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 25px;
+    width: 40%;
+}
+
+.headDx {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headSx {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 60%;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 25%;
+}
+
+.session {
+    color: white;
+    font-size: large;
+}
+
+.name {
+    font-size: 3.5em;
+    font-family: 'Parisienne';
+    color: white;
+    text-decoration: none;
+    cursor: default;
+}
+
+.navLink {
+    text-decoration: none;
+    color: #F5B942;
+    font-size: large;
+}
+
+.homepage {
+    color: white;
+    font-size: large;
+    text-decoration: none;
+}
+
+.info {
+    color: white;
+    font-size: large;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <title>Reservo - Guida</title>
+        <link rel="stylesheet" href="../css/fonts.css">
+        <link rel="stylesheet" href="../css/header.css">
+        <link rel="stylesheet" href="../css/guide.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <div class="headSx">
+                <div id="logo">
+                    <img src="../images/logo.png" class="logo" alt="logo">
+                    <a class="name">eservo</a>
+                </div>
+                <a class="homepage" href="../php/index.php">Home</a>
+            </div>
+            <div class="headDx">
+                <p class="guide">Guida al servizio</p>
+            </div>
+        </header>
+        <div id="container">
+            <article>
+                <h2>Guida all'utilizzo di Reservo</h2>
+                <p>
+                    La web app è un gestore di prenotazioni per ristoranti.<br>
+                    Dalla homepage, attraverso i pulsanti posti in alto a destra, è possibile
+                    accedere o registrarsi. In fase di registrazione viene chiesto di inserire
+                    nome, cognome, username e password oltre che il tipo di profilo che può essere
+                    'cliente' o 'gestore'.<br> Una volta eseguito l'accesso come cliente viene mostratata l'homepage:
+                    da qui è possibile consultare la lista dei locali disponibili e gestire le prenotazioni
+                    effettuate. I pannelli dei singoli ristoranti permettono di prenotare cliccando sul tasto 'Prenota'.
+                    La pagina dedicata alla prenotazione presenta un calendario interattivo sulla sinistra,
+                    e un pannello dinamico che guida la procedura sulla destra. Una volta confermata la
+                    prenotazione si viene reindirizzati alla homepage.<br>
+                    Se si effettua l'accesso come gestore viene mostrata la dashboard, suddivisa in tre sezioni:
+                    pannello locali, pannello prenotazioni e pannello eccezioni.
+                    Dalla prima è possibile aggiungere un locale specificando il nome, l'indirizzo, il tipo di cucina,
+                    e il massimo numero di coperti. Inoltre è possibile aggiungere, per ogni locale, i turni
+                    di pranzo e cena, specificando il tipo di turno, gli orari di apertura e chiusura
+                    e la validità del turno durante la settimana. Il pannello centrale mostra l'elenco delle prenotazioni
+                    per un dato giorno, ordinate per turno e con l'indicazione sul totale dei coperti.
+                    Il pannello delle eccezioni, infine, permette l'aggiunta e la rimozione di eccezioni:
+                    queste in particolare sono legate ai singoli turni e rappresentano un giorno di 
+                    chiusura straordinaria.<br>
+                    Il database contiene 6 ristoranti, 4 profili gestore nominati 'gestore1' ... 'gestore4',
+                    7 profili cliente nominati 'cliente1' ... 'cliente7' (password '12345678' per tutti i profili)
+                    e alcune prenotazioni di prova. 
+                </p>
+            </article>
+        </div>
+    </body>
+</html>

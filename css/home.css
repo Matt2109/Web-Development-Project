@@ -1,0 +1,187 @@
+body {
+    background-color: #F7F8FA;
+    color: #1F2937;
+}
+
+#homeBody {
+    font-family: 'GoogleSans', sans-serif;
+    margin: 0px;
+}
+
+#title {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: xx-large;
+}
+
+#restContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    gap: 40px;
+}
+
+#bodyContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#searchContainer {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    gap: 10px;
+    margin-right: 10px;
+}
+
+#search {
+    height: 2.5em;
+    width: 100%;
+    font-size: large;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    box-shadow: inset 0 1px 2px lightgray;
+}
+
+#search:focus {
+    outline: 2px solid #003d5b;
+}
+
+#restSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+    width: 100%;
+    height: 20em;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    box-shadow: 0 2px 10px gray;
+    background-color: white;
+    overflow-y: scroll;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+}
+
+.restPanel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 5px solid #003d5b;
+    box-shadow:0 2px 10px gray;
+    background-color: white;
+    margin-right: 20px;
+}
+
+.reservPanel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 20%;
+    border-radius: 10px;
+    border: 2px solid #003d5b;
+    box-shadow: 0 2px 10px gray;
+    background-color: white;
+}
+
+#reservations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 20px;
+    width: 80%;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.reservations {
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.search {
+    width: 5%;
+}
+
+.kitchen {
+    width: 30%;
+}
+
+.marker {
+    width: 10%;
+}
+
+.calendar {
+    width: 10%;
+}
+
+.panelLink {
+    background-color: #F5B942;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.panelLink:hover {
+    box-shadow: 0 2px 10px gray;
+}
+
+.panelButton {
+    background-color: #F5B942;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: medium;
+}
+
+.panelButton:hover {
+    box-shadow: 0 2px 10px gray;
+}
+
+.resName {
+    font-weight: bold;
+}
+
+.address {
+    font-size: small;
+}
+
+.reserv {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.removeReserv {
+    background-color: #d1495b;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.removeReserv:hover {
+    box-shadow: 0 2px 10px gray;
+}

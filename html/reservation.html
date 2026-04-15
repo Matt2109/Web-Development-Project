@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <title>Reservo - Prenotazione</title>
+        <link rel="stylesheet" href="../css/fonts.css">
+        <link rel="stylesheet" href="../css/header.css">
+        <link rel="stylesheet" href="../css/reservation.css">
+        <script src="../js/reservation.js" defer></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body onload="main()">
+        <header>
+            <div class="headSx">
+                <div id="logo">
+                    <img src="../images/logo.png" class="logo" alt="logo">
+                    <a class="name">eservo</a>
+                </div>
+                <a class="homepage" href="../php/index.php">Home</a>
+            </div>
+            <div class="headDx">
+                <p class="info">Prenota un tavolo</p>
+                <a class="logout" href="../php/logout.php">Esci</a>
+            </div>
+        </header>
+        <div id="container">
+            <div id="calendar"></div>
+            <div id="infoContainer">
+                <p class="intest" id="infoTitle"></p>
+                <p id="infoDesc"></p>
+                <div id="coversForm">
+                    <input type="number" value="2" id="clients" min="1" required>
+                    <button type="button" id="continue" onclick="formHandler()">Mostra orari</button>
+                </div>
+                <div id="shifts">
+                    <p id="mess"></p>
+                    <div id="lunch"></div>
+                    <div id="dinner"></div>
+                </div>
+                <p id="infoFoot"></p>
+            </div>
+        </div>
+    </body>
+</html>
